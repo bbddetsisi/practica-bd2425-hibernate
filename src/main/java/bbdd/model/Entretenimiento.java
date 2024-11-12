@@ -20,6 +20,8 @@ import javax.persistence.Table;
 // necesarias.
 public class Entretenimiento {
 
+    private Long id;
+
     private String nombre;
 
     private Set<Gasto> gastos = new HashSet<>();
@@ -30,6 +32,10 @@ public class Entretenimiento {
 
     public Entretenimiento(String nombre) {
         this.nombre = nombre;
+    }
+
+    public Long getId() {
+        return id;
     }
 
     public String getNombre() { 
