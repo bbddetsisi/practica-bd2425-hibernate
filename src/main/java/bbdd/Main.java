@@ -34,12 +34,13 @@ public class Main
 
         Session session = sessionFactory.openSession();
 
-        // @TODO Crear un nuevo Pasajero llamado "Din Djarin" y un nuevo entretenimiento 
-        // llamado "Bounty Hunting" y guardarlos en la base de datos.
+        // @TODO Crear un nuevo pasajero llamado "Din Djarin" y un nuevo entretenimiento
+        // llamado "Bounty Hunting" y guardarlos en la base de datos. Añade un gasto de
+        // 100 a "Din Djarin" para "Bounty Hunting".
         
 
         // @TODO Leer el fichero CSV gastos.csv que se encuentra en el directorio "resources" y 
-        // recorrerlo usando CSVParser para crear los personajes, entretenimientos y gastos que 
+        // recorrerlo usando CSVParser para crear los pasajeros, entretenimientos y gastos que
         // en él se encuentran. Dichos gastos deberán ser asignados al pasajero/a y al entretenimiento 
         // correspondientes. Se deben guardar todos estos datos en la base de datos.
         

@@ -18,8 +18,6 @@ import javax.persistence.Table;
 // enunciado de la práctica. No es necesario modificar el código de esta
 // clase, únicamente debes hacer las anotaciones que consideres
 // necesarias.
-@Entity
-@Table(name = "entretenimientos")
 public class Entretenimiento {
 
     private Long id;
